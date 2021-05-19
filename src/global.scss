@@ -1,0 +1,7 @@
+$width: 768px;
+
+@mixin mobile { //for responsiveness on mobile devices. will study more later
+    @media (max-width: #{$width}){
+        @content
+    }
+}
